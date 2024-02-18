@@ -1,0 +1,26 @@
+/**
+ * Внедряем базовые стили (Preflight) Tailwind и любые базовые стили, зарегистрированные плагинами
+ */
+@tailwind base;
+/**
+ * Внедряем базовые классы компонентов Tailwind и любые классы компонентов, зарегистрированные плагинами
+ */
+@tailwind components;
+/**
+ * Внедряем служебные классы Tailwind и любые служебные классы, зарегистрированные плагинами
+ */
+@tailwind utilities;
+
+@layer base {
+  html {
+    --text-color-primary: #000000;
+    --text-color-secondary: #ffffff;
+
+    --bg-color-panel: rgb(255 255 255);
+    --bg-color-page: #3d2sf5;
+    --bg-color-button: rgb(255 0 0);
+
+    --border-color: rgb(203 213 225);
+  }
+  @import "themes/darkTheme.css";
+}

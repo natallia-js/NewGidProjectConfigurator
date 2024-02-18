@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .spinner-container {
+        @apply flex flex-col;
+    }
+    .spinner-container__svg {
+        @apply inline w-8 h-8;
+        @apply animate-spin;
+        @apply text-gray-200 fill-blue-600;
+    }
+    .spinner-container__text {
+        @apply text-primary;
+    }
+}

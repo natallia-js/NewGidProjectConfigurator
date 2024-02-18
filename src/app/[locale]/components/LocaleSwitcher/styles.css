@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components {
+    .locale-select {
+        @apply block appearance-none w-full p-2.5;
+        @apply rounded-lg;
+        @apply bg-transparent bg-panel;
+    }
+}

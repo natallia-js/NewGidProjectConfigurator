@@ -1,0 +1,40 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "ag-grid-react": "^31.0.2",
+    "clsx": "^2.1.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.12.0",
+    "next": "14.0.3",
+    "next-intl": "^3.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "esm": "^3.2.25",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "typescript": "^5"
+  }
+}
