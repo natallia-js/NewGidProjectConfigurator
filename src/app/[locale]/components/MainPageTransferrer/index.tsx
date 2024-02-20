@@ -1,7 +1,7 @@
 import { LocalizedLink } from '@/navigation';
 import { RealPathnames } from '@/constants';
 
-type Props = {
+interface Props {
   appName: string;
   currentLocale: string;
   mainPageHref: RealPathnames;

@@ -1,6 +1,6 @@
 import ListItemSign from './ListItemSign';
 
-type Props = {
+interface Props {
   dataArray: string[];
 }
 

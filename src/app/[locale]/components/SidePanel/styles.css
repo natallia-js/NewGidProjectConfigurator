@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .side-panel {
+    @apply w-full h-full;
+    @apply bg-panel;
+  }
+}
+
+/*@media screen(sm) {
+}*/

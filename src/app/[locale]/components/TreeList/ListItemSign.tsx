@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-type Props = {
+interface Props {
   expand: boolean;
 }
 

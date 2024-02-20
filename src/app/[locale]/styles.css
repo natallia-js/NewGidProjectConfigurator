@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .home-page {
+    @apply grow flex flex-col sm:flex-row;
+  }
+}

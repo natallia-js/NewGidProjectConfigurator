@@ -1,14 +1,14 @@
-import StationsPanel from '@/localeApp/components/StationsPanel/index';
+import SidePanel from '@/localeApp/components/SidePanel/index';
+import TreeList from '@/localeApp/components/TreeList/index';
 //import GridExample from '@/localeApp/components/GridExample';
-import Spinner from '@/localeApp/components/Spinner';
 
 export default function Home() {
   return (
-    <div data-testid="main-div"
-      className="grow flex flex-col sm:flex-row">
-      <div
-        className="w-full sm:w-80 h-80 sm:h-full">
-        <StationsPanel stationsList={['станция 1','станция 2','станция 3']} />
+    <div className="home-page">
+      <div className="w-full sm:w-80 h-80 sm:h-full">
+        <SidePanel>
+          <TreeList dataArray={['station1', 'station2', 'station3']}/>
+        </SidePanel>
       </div>
       <div
         className="w-full h-full bg-page">
