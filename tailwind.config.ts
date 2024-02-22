@@ -21,8 +21,12 @@ const config: Config = {
       },
       backgroundColor: {
         panel: 'var(--bg-color-panel)',
+        panel2: 'var(--bg-color-panel2)',
         page: 'var(--bg-color-page)',
         button: 'var(--bg-color-button)',
+      },
+      borderColor: {
+        DEFAULT: 'var(--border-color)',
       }
     },
   },

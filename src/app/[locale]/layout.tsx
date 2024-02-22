@@ -25,11 +25,11 @@ interface Props {
 export default function RootLayout({ children, params: { locale } }: Props) {
   return (
     <html lang={locale}>
-      <body className="min-h-screen flex flex-col flex-no-wrap text-primary">
-        <div className="flex-none">
+      <body className="main-body-layout">
+        <div className="flex-none border-b">
           <MainHeader />
         </div>
-        <main className="grow flex">
+        <main className="min-h-full">
           {children}
         </main>
       </body>

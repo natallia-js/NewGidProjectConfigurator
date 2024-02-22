@@ -3,7 +3,7 @@
 @layer components {
   .main-header {
     @apply flex flex-row justify-between;
-    @apply border-b bg-panel;
+    @apply bg-panel;
   }
   .main-header__main-page-transferrer-container {
     @apply flex justify-items-center items-center;

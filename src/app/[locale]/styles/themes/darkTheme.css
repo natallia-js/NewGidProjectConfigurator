@@ -2,9 +2,10 @@ html[data-theme="dark"] {
   --text-color-primary: #ffffff;
   --text-color-secondary: #000000;
 
-  --bg-color-panel: rgb(30 41 0);
+  --bg-color-panel: rgb(15 23 42);
+  --bg-color-panel2: rgb(15 23 42);
   --bg-color-page: rgb(30 41 59);
   --bg-color-button: rgb(0 0 255);
 
-  --border-color: rgb(203 213 225);
+  --border-color: #34393f;
 }

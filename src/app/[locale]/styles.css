@@ -2,6 +2,19 @@
 
 @layer components {
   .home-page {
-    @apply grow flex flex-col sm:flex-row;
+    @apply h-full;
+    @apply flex flex-col sm:flex-row flex-nowrap;
+  }
+
+  .home-page__side-panel-left {
+    @apply flex-none hidden sm:block sm:w-80;
+  }
+
+  .home-page__side-panel-top {
+    @apply flex-none sm:hidden;
+  }
+
+  .home-page__main-block {
+    @apply grow bg-page;
   }
 }

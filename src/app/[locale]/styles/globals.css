@@ -16,11 +16,22 @@
     --text-color-primary: #000000;
     --text-color-secondary: #ffffff;
 
-    --bg-color-panel: rgb(255 255 200);
-    --bg-color-page: #3d2sf5;
+    --bg-color-panel: #ffffff;
+    --bg-color-panel2: #f9fbfa;
+    --bg-color-page: #ffffff;
     --bg-color-button: rgb(255 0 0);
 
-    --border-color: rgb(203 213 225);
+    --border-color: #e5e7eb;
+
+    @apply h-full;
   }
   @import "themes/darkTheme.css";
+}
+
+@layer components {
+  .main-body-layout {
+    @apply min-h-full h-full;
+    @apply flex flex-col flex-nowrap;
+    @apply text-primary;
+  }
 }
